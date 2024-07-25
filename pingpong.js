@@ -29,6 +29,6 @@ function criaBolinha(xBolinha, yBolinha,tamBolinha){
 
 //função nova bolinha
 function novaBolinha(){
-    xBolinha = xvelocidadebolinha + yvelocidadebolinha
-    yBolinha = yvelocidadebolinha + xvelocidadebolinha
+    xBolinha = xvelocidadebolinha + yvelocidadebolinha;
+    yBolinha = yvelocidadebolinha + xvelocidadebolinha;
 }
