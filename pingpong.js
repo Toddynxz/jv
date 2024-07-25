@@ -3,6 +3,10 @@ let xBolinha = 300;
 let yBolinha = 200;
 let tamBolinha = 25;
 
+//config velocidade bolinha
+let xvelocidadebolinha =6;
+let yvelocidadebolinha = 6;
+
 function setup(){
     //aqui vou criar minha "mesa"
     createCanvas(600,400);
@@ -19,4 +23,9 @@ function draw(){
 //função bolinha
 function criaBolinha(xBolinha, yBolinha,tamBolinha){
     circle (xBolinha,yBolinha,tamBolinha);
+}
+
+//função nova bolinha
+function novaBolinha(){
+    xBolinha =
 }
