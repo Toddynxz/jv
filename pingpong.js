@@ -18,6 +18,8 @@ function draw(){
     background(100,149,237); 
     //chamando a função
     criaBolinha(xBolinha, yBolinha, tamBolinha);
+    //chamando a função mov bolinha
+    moveBolinha();
 }
 
 //função bolinha
@@ -27,5 +29,6 @@ function criaBolinha(xBolinha, yBolinha,tamBolinha){
 
 //função nova bolinha
 function novaBolinha(){
-    xBolinha =
+    xBolinha = xvelocidadebolinha + yvelocidadebolinha
+    yBolinha = yvelocidadebolinha + xvelocidadebolinha
 }
