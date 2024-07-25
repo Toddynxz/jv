@@ -1,6 +1,6 @@
 //aqui eu vou criar a bolinha
 let xBolinha = 300;
-let yBolinha =200;
+let yBolinha = 200;
 let tamBolinha = 25;
 
 function setup(){
@@ -11,12 +11,12 @@ function setup(){
 function draw(){
     //aqui vou por a cor da "mesa"
     //A cor da mesa é em rgb
-    background(100,149,237);
+    background(128,128,0); 
     //chamando a função
-    criaBolinha(xBolinha,yBolinha,tamBolinha)
+    criaBolinha(xBolinha, yBolinha, tamBolinha);
 }
 
 //função bolinha
-function criaBolinha(xBolinha,yBolinha,tamBolinha){
-    Circle (xBolinha,yBolinha,tamBolinha);
+function criaBolinha(xBolinha, yBolinha,tamBolinha){
+    circle (xBolinha,yBolinha,tamBolinha);
 }
