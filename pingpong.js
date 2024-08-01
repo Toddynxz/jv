@@ -66,7 +66,7 @@ function movimentaRaquete() {
         yRaquete -= 10;
     }
     if(keyIsDown(DOWN_ARROW)){
-        yRaquete +=10;
+        yRaquete += 10;
     }
 }
 //função responsável por quando a bolinha bater na raquete, retornar em diração contrária.
