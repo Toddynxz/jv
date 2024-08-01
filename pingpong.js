@@ -51,8 +51,15 @@ function Borda(){
         xvelocidadeBolinha *= -1;
     }
     if (yBolinha > height || yBolinha < 0){
-        yvelocidadeBolinha *= -1;
+        yvelocidadeBolinha *= -1;{
     }
+     
+    if (yRaquete > width || yRaquete < 0){
+    }
+    if (yRaquete > height || yRaquete < 0){
+
+    }
+
 }
 
 //função responsável por cirar o retângulo que representa a raquete
