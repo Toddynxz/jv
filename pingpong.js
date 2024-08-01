@@ -1,11 +1,18 @@
 //aqui eu vou criar a bolinha
 let xBolinha = 300;
 let yBolinha = 200;
-let tamBolinha = 25;
+let tamanhoBolinha = 25;
+let raioBolinha = tamanhoBolinha/2;
 
 //config velocidade bolinha
 let xvelocidadeBolinha = 6;
 let yvelocidadeBolinha = 6;
+
+//aqui estou configurando a raquete
+let xRaquete = 5;
+let yRaquete = 150;
+let larguraRaquete = 10;
+let alurtaRaquete = 90;
 
 function setup(){
     //aqui vou criar minha "mesa"
@@ -46,7 +53,7 @@ function Borda(){
     }
 }
 
-function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquet){
+function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete){
     fill("blue");e
     rect (xRaquete, yRaquete, larguraRaquete, alturaRaquete);
 }
