@@ -16,18 +16,19 @@ function draw(){
     //função responsável pelo "desenho e animação da mesa"
     //aqui vou por a cor da "mesa"
     //A cor da mesa é em rgb
-    background(0,0,0); 
+    background(128,128,0); 
     //chamando a função cria bolinha para criar a bolinha
-    criaBolinha(xBolinha, yBolinha, tamBolinha);
-    //chamando a função mov bolinha
-    moveBolinha();
-    //chamando a borda
-    Borda();
+    criaBolinha(xBolinha, yBolinha, tamanhoBolinha);
+    movimentaBolinha();
+    bolinhaBorda();
+    criaRaquete (xRaquete, yRaquete, larguraRaquete, alturaRaquete);
+    movimentaRaquete();
+    colideRaquete();
 }
 
 //função bolinha
 function criaBolinha(xBolinha, yBolinha,tamBolinha){
-    circle (xBolinha,yBolinha,tamBolinha);
+    circle (xBolinha,yBolinha,tamanhoBolinha);
 }
 
 //função move bolinha
@@ -45,8 +46,8 @@ function Borda(){
     }
 }
 
-function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete){
-    fill("blue");
+function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquet){
+    fill("blue");e
     rect (xRaquete, yRaquete, larguraRaquete, alturaRaquete);
 }
 //função respnsável por movimentar a raquete
