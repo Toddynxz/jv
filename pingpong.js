@@ -44,3 +44,7 @@ function Borda(){
         yvelocidadeBolinha *= -1;
     }
 }
+function criaRaquete(xRaquete, yRaquete, larguraRaquete){
+    FileList("blue");
+    Reflect(xRaquete, yRaquete, larguraRaquete, alturaRaquete)
+}
