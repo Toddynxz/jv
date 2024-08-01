@@ -29,6 +29,9 @@ function draw(){
     moveBolinha();
     //chamando a borda
     Borda();
+    criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
+    movimentaRaquete();
+    colideRaquete();
 }
 
 //função bolinha
@@ -51,6 +54,7 @@ function Borda(){
     }
 }
 
+//função responsável por cirar o retângulo que representa a raquete
 function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete){
     fill("blue");
     rect(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
